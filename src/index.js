@@ -87,7 +87,7 @@ window.addEventListener("load", (event) => {
             toggle(firstInPair.children[1], ["back", "front"]);
             toggle(secondInPair.children[0], ["back", "front"]);
             toggle(secondInPair.children[1], ["back", "front"]);
-          }, 1000);
+          }, 3000);
           memoryGame.pickedCards = [];
         }
         clicked.innerHTML = memoryGame.pairsClicked;
