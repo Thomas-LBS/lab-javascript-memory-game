@@ -80,6 +80,9 @@ window.addEventListener("load", (event) => {
             h1.style.color = "green";
             h1.innerHTML = "YOU WON!!!";
             document.querySelector("#memory-board").appendChild(h1);
+            setTimeout(function(){
+              window.location.reload();
+           }, 10000);
           }
         } else {
           setTimeout(() => {
